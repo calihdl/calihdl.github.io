@@ -33,14 +33,17 @@
     "uniqCompNum": 16,
     "versionPublish": "4.1.4",
     "path": "@PROJECT_PATH@",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "favicon": "@PROJECT_PATH@/assets/images/headlights-128x85.png",
+    "noImageResize": "",
+    "google-analytics": ""
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "",
+        "title": "California Headlights - Headlight restoration serving Long Beach, CA",
+        "meta_descr": "Headlight Restoration. Increase night time visibility",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -962,7 +965,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/3before-2000x1493.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": false,
@@ -1026,7 +1029,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/4before-1024x764.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": false,
